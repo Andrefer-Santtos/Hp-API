@@ -8,7 +8,5 @@ import java.util.List;
 
 @Repository
 public interface SlytherinRepository extends JpaRepository<Slytherin, Integer> {
-//    List<Slytherin> findByPublished(boolean published);
-
     List<Slytherin> findByCriador(String criador);
 }

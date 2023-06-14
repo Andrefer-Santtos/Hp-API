@@ -98,18 +98,4 @@ public class SlytherinResource {
 
     }
 
-//    @GetMapping("/slytherins/published")
-//    public ResponseEntity<List<Slytherin>> findByPublished() {
-//        try {
-//            List<Slytherin> slytherins = slytherinRepository.findByPublished(true);
-//
-//            if (slytherins.isEmpty()) {
-//                return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-//            }
-//            return new ResponseEntity<>(slytherins, HttpStatus.OK);
-//        } catch (Exception e) {
-//            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-//        }
-//    }
-
 }
